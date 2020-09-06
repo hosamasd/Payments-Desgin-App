@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		9F9CBD8C25055F2100930FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBD8B25055F2100930FFE /* AppDelegate.swift */; };
 		9F9CBD8E25055F2100930FFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBD8D25055F2100930FFE /* SceneDelegate.swift */; };
-		9F9CBD9025055F2100930FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBD8F25055F2100930FFE /* ViewController.swift */; };
+		9F9CBD9025055F2100930FFE /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBD8F25055F2100930FFE /* CustomTabBarViewController.swift */; };
 		9F9CBD9325055F2100930FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9CBD9125055F2100930FFE /* Main.storyboard */; };
 		9F9CBD9525055F2400930FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9CBD9425055F2400930FFE /* Assets.xcassets */; };
 		9F9CBD9825055F2400930FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9CBD9625055F2400930FFE /* LaunchScreen.storyboard */; };
+		9F9CBDA525055F6E00930FFE /* ExtensionUivew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDA225055F6E00930FFE /* ExtensionUivew.swift */; };
+		9F9CBDA625055F6E00930FFE /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDA325055F6E00930FFE /* UILabel.swift */; };
+		9F9CBDA725055F6E00930FFE /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDA425055F6E00930FFE /* UIImageView.swift */; };
+		9F9CBDA925055FAA00930FFE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDA825055FAA00930FFE /* HomeViewController.swift */; };
+		9F9CBDAB2505608100930FFE /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDAA2505608100930FFE /* CustomHeaderView.swift */; };
+		9F9CBDAD250560BE00930FFE /* CustomBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDAC250560BE00930FFE /* CustomBottomView.swift */; };
+		9F9CBDAF250560D500930FFE /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDAE250560D500930FFE /* CustomButton.swift */; };
+		9F9CBDB2250560EE00930FFE /* ExpensesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDB1250560EE00930FFE /* ExpensesCollectionViewCell.swift */; };
+		9F9CBDB42505610800930FFE /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDB32505610800930FFE /* TransferViewController.swift */; };
+		9F9CBDB62505611E00930FFE /* CustomTransferHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDB52505611E00930FFE /* CustomTransferHeaderView.swift */; };
+		9F9CBDB82505613700930FFE /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDB72505613700930FFE /* UserCollectionViewCell.swift */; };
+		9F9CBDBA2505614E00930FFE /* CustomSelectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDB92505614E00930FFE /* CustomSelectedView.swift */; };
+		9F9CBDBC2505617000930FFE /* CardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CBDBB2505617000930FFE /* CardsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9F9CBD8825055F2100930FFE /* Payments Desgin App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Payments Desgin App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9CBD8B25055F2100930FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F9CBD8D25055F2100930FFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F9CBD8F25055F2100930FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F9CBD8F25055F2100930FFE /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		9F9CBD9225055F2100930FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F9CBD9425055F2400930FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F9CBD9725055F2400930FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F9CBD9925055F2400930FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9CBDA225055F6E00930FFE /* ExtensionUivew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUivew.swift; sourceTree = "<group>"; };
+		9F9CBDA325055F6E00930FFE /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		9F9CBDA425055F6E00930FFE /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		9F9CBDA825055FAA00930FFE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9F9CBDAA2505608100930FFE /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
+		9F9CBDAC250560BE00930FFE /* CustomBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomView.swift; sourceTree = "<group>"; };
+		9F9CBDAE250560D500930FFE /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		9F9CBDB1250560EE00930FFE /* ExpensesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F9CBDB32505610800930FFE /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		9F9CBDB52505611E00930FFE /* CustomTransferHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransferHeaderView.swift; sourceTree = "<group>"; };
+		9F9CBDB72505613700930FFE /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F9CBDB92505614E00930FFE /* CustomSelectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSelectedView.swift; sourceTree = "<group>"; };
+		9F9CBDBB2505617000930FFE /* CardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +84,58 @@
 			children = (
 				9F9CBD8B25055F2100930FFE /* AppDelegate.swift */,
 				9F9CBD8D25055F2100930FFE /* SceneDelegate.swift */,
-				9F9CBD8F25055F2100930FFE /* ViewController.swift */,
+				9F9CBDA125055F5600930FFE /* helpers */,
+				9F9CBDA025055F4E00930FFE /* view */,
+				9F9CBD9F25055F4600930FFE /* controller */,
 				9F9CBD9125055F2100930FFE /* Main.storyboard */,
 				9F9CBD9425055F2400930FFE /* Assets.xcassets */,
 				9F9CBD9625055F2400930FFE /* LaunchScreen.storyboard */,
 				9F9CBD9925055F2400930FFE /* Info.plist */,
 			);
 			path = "Payments Desgin App";
+			sourceTree = "<group>";
+		};
+		9F9CBD9F25055F4600930FFE /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F9CBD8F25055F2100930FFE /* CustomTabBarViewController.swift */,
+				9F9CBDA825055FAA00930FFE /* HomeViewController.swift */,
+				9F9CBDB32505610800930FFE /* TransferViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		9F9CBDA025055F4E00930FFE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				9F9CBDB0250560E700930FFE /* cell */,
+				9F9CBDAA2505608100930FFE /* CustomHeaderView.swift */,
+				9F9CBDAC250560BE00930FFE /* CustomBottomView.swift */,
+				9F9CBDAE250560D500930FFE /* CustomButton.swift */,
+				9F9CBDB52505611E00930FFE /* CustomTransferHeaderView.swift */,
+				9F9CBDB92505614E00930FFE /* CustomSelectedView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		9F9CBDA125055F5600930FFE /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9F9CBDA225055F6E00930FFE /* ExtensionUivew.swift */,
+				9F9CBDA425055F6E00930FFE /* UIImageView.swift */,
+				9F9CBDA325055F6E00930FFE /* UILabel.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		9F9CBDB0250560E700930FFE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				9F9CBDB1250560EE00930FFE /* ExpensesCollectionViewCell.swift */,
+				9F9CBDB72505613700930FFE /* UserCollectionViewCell.swift */,
+				9F9CBDBB2505617000930FFE /* CardsCollectionViewCell.swift */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +209,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F9CBD9025055F2100930FFE /* ViewController.swift in Sources */,
+				9F9CBDAB2505608100930FFE /* CustomHeaderView.swift in Sources */,
+				9F9CBDA625055F6E00930FFE /* UILabel.swift in Sources */,
+				9F9CBDB2250560EE00930FFE /* ExpensesCollectionViewCell.swift in Sources */,
+				9F9CBDA525055F6E00930FFE /* ExtensionUivew.swift in Sources */,
+				9F9CBD9025055F2100930FFE /* CustomTabBarViewController.swift in Sources */,
+				9F9CBDB82505613700930FFE /* UserCollectionViewCell.swift in Sources */,
+				9F9CBDBA2505614E00930FFE /* CustomSelectedView.swift in Sources */,
+				9F9CBDAF250560D500930FFE /* CustomButton.swift in Sources */,
 				9F9CBD8C25055F2100930FFE /* AppDelegate.swift in Sources */,
+				9F9CBDB42505610800930FFE /* TransferViewController.swift in Sources */,
+				9F9CBDA725055F6E00930FFE /* UIImageView.swift in Sources */,
+				9F9CBDB62505611E00930FFE /* CustomTransferHeaderView.swift in Sources */,
+				9F9CBDBC2505617000930FFE /* CardsCollectionViewCell.swift in Sources */,
+				9F9CBDA925055FAA00930FFE /* HomeViewController.swift in Sources */,
 				9F9CBD8E25055F2100930FFE /* SceneDelegate.swift in Sources */,
+				9F9CBDAD250560BE00930FFE /* CustomBottomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hosam.net.Payments-Desgin-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hosam.net.Payments-Desgin-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
